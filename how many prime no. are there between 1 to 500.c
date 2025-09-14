@@ -10,12 +10,13 @@ for(i=2;i<=500;i=i+1)
 
 for(j=1;j<=i;j=j+1)
 {
-    if(i%j==0){
-    sum=sum+j;}
+    if(i%j==0)
+    sum=sum+j;
 }
-    if(sum==i+1){
-    total=total+1;}
+    if(sum==i+1)
+    total=total+1;
 }
 
  printf("number of prime numbers from 1 to 500= %d", total);
 }
+
