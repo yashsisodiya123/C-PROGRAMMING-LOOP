@@ -15,10 +15,11 @@ printf("enter number %d= ", i);
 scanf("%d", &num);
 
 sum=sum+num;
-mean=sum/N;
-}
 
+}
+mean=sum/N;
 printf("sum= %d\n", sum);
 printf("mean= %d\n", mean);
 
 }
+
