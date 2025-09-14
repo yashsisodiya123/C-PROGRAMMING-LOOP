@@ -7,7 +7,7 @@ char gender;
 girl=0;
 boy=0;
 
-for(i=1;i<=5;i=i+1)
+for(i=1;i<=50;i=i+1)
 {
 
 printf("gender of student %d(M/F)= ", i);
@@ -29,3 +29,4 @@ printf("number of girls= %d\n", girl);
 printf("number of boys= %d\n", boy);
 
 }
+
