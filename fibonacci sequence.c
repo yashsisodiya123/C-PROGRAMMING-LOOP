@@ -1,6 +1,6 @@
 #include<stdio.h>
 int main(){
-int i,N,a,b,next;
+int i,N,a,b,temp;
 
 printf("enter number of terms= ");
 scanf("%d", &N);
@@ -11,8 +11,9 @@ a=0;
 b=1;
 for(i=1;i<=N;i=i+1)
 {   printf("%d,", a);
-    next=a+b;
+    temp=a+b;
     a=b;
-    b=next;
+    b=temp;
 }
 }
+
