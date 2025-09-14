@@ -11,10 +11,11 @@ printf("enter number %d= ", i);
 scanf("%d", &num);
 
 sum=sum+num;
-mean=sum/10;
-}
 
+}
+mean=sum/10;
 printf("sum= %d\n", sum);
 printf("mean= %d\n", mean);
 
 }
+
